@@ -3,8 +3,7 @@ os: linux
 
 files:
   - source: build/
-    destination: /var/www/html/frontend
-
+    destination: /var/www/html/build
 hooks:
   AfterInstall:
     - location: scripts/install.sh
